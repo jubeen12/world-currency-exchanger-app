@@ -16,7 +16,7 @@ class CurrencyList extends Component {
   render() {
     return (
       <View style={{ flex: 1 }}>
-        <StatusBar translucent={false} barStyle="light-content" />
+        <StatusBar translucent={false} barStyle="dark-content" />
         <FlatList
           data={currencies}
           renderItem={({ item }) => (
