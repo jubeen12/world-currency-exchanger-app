@@ -1,0 +1,36 @@
+{
+  "name": "CurrencyConverter-Starter",
+  "version": "0.1.0",
+  "private": true,
+  "devDependencies": {
+    "babel-eslint": "^8.0.2",
+    "eslint": "^5.0.1",
+    "eslint-config-airbnb": "^17.0.0",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-jsx-a11y": "^6.0.2",
+    "eslint-plugin-react": "^7.5.1",
+    "prettier": "^1.5.3",
+    "prettier-eslint": "^8.2.2",
+    "react-native-scripts": "1.14.0"
+  },
+  "scripts": {
+    "start": "expo start",
+    "eject": "expo eject",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
+  },
+  "dependencies": {
+    "@expo/vector-icons": "^10.0.0",
+    "color": "3.0.0",
+    "expo": "^35.0.0",
+    "moment": "^2.24.0",
+    "prop-types": "^15.7.2",
+    "react": "16.8.3",
+    "react-dom": "16.8.3",
+    "react-native": "https://github.com/expo/react-native/archive/sdk-35.0.0.tar.gz",
+    "react-native-extended-stylesheet": "0.8.0",
+    "react-native-web": "^0.11.7"
+  }
+}
